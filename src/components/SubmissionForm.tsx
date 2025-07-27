@@ -28,6 +28,14 @@ const SubmissionForm = () => {
                   <SelectItem value="es">Spanish</SelectItem>
                   <SelectItem value="fr">French</SelectItem>
                   <SelectItem value="de">German</SelectItem>
+                  <SelectItem value="it">Italian</SelectItem>
+                  <SelectItem value="nl">Dutch</SelectItem>
+                  <SelectItem value="sv">Swedish</SelectItem>
+                  <SelectItem value="ko">Korean</SelectItem>
+                  <SelectItem value="pt">Portuguese</SelectItem>
+                  <SelectItem value="ha">Hausa</SelectItem>
+                  <SelectItem value="yo">Yoruba</SelectItem>
+                  <SelectItem value="ig">Igbo</SelectItem>
                   <SelectItem value="ja">Japanese</SelectItem>
                   <SelectItem value="zh">Chinese</SelectItem>
                 </SelectContent>
@@ -45,6 +53,14 @@ const SubmissionForm = () => {
                   <SelectItem value="es">Spanish</SelectItem>
                   <SelectItem value="fr">French</SelectItem>
                   <SelectItem value="de">German</SelectItem>
+                  <SelectItem value="it">Italian</SelectItem>
+                  <SelectItem value="nl">Dutch</SelectItem>
+                  <SelectItem value="sv">Swedish</SelectItem>
+                  <SelectItem value="ko">Korean</SelectItem>
+                  <SelectItem value="pt">Portuguese</SelectItem>
+                  <SelectItem value="ha">Hausa</SelectItem>
+                  <SelectItem value="yo">Yoruba</SelectItem>
+                  <SelectItem value="ig">Igbo</SelectItem>
                   <SelectItem value="ja">Japanese</SelectItem>
                   <SelectItem value="zh">Chinese</SelectItem>
                 </SelectContent>
