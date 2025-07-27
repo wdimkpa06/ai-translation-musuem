@@ -24,6 +24,10 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				'gallery-bg': 'hsl(var(--gallery-bg))',
+				'exhibit-glow': 'hsl(var(--exhibit-glow))',
+				'fail-highlight': 'hsl(var(--fail-highlight))',
+				'success-highlight': 'hsl(var(--success-highlight))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
@@ -84,11 +88,27 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'glow-pulse': {
+					'0%, 100%': { 
+						boxShadow: '0 0 20px hsl(var(--exhibit-glow) / 0.3)',
+						transform: 'translateY(0px)'
+					},
+					'50%': { 
+						boxShadow: '0 0 40px hsl(var(--exhibit-glow) / 0.6)',
+						transform: 'translateY(-2px)'
+					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0px)' },
+					'50%': { transform: 'translateY(-8px)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'glow-pulse': 'glow-pulse 3s ease-in-out infinite',
+				'float': 'float 6s ease-in-out infinite'
 			}
 		}
 	},
